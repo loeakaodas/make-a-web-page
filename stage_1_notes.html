@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<!-- This line is an HTML comment. -->
+<!-- The <head> element contains information that won't be displayed on the page. -->
+<head>
+  <!-- The <title> element normally sets the name of the browser tab (but in this example codepen's title overrides the title I set) -->
+  <title>Andrey's Notes</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!-- You can add style on codepen using a <style> element:
+<style>
+  .concept {
+    color : red;
+  }
+</style>
+-->
+<body>
+  <h1>Stage 1</h1>
+  <!-- The <h1> tag stands for "heading 1". Heading tags go all the way up to <h6>. Lower numbered headings indicate content that is more important. -->
+  <div class="section">
+    <h2>Lesson 1 Notes</h2>
+      <div class="concept">
+        <div class="concept-title">Thinking like a programmer</div>
+          <div class="concept-description">
+            <p>
+              There are different ways in which to think like a programmer:
+            </p>
+              <ol>
+                <li>Procedural thinking</li>
+                <li>Abstract thinking</li>
+                <li>Systems thinking</li>
+                <li>Technological empathy</li>
+                <li>Systematic debugging</li>
+              </ol>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">Basics of the Web</div>
+          <div class="concept-description">
+            <p>
+              The World Wide Web is a collection of <span class="bold">HTML</span> documents that are linked together by <span class="bold">URLs</span> and <span class="bold">HTTP</span> across the <span class="bold">internet</span>. The Web itself was invented in the early 90's at CERN and now comprises over 30 billion pages. You
+              access the web through a browser, which sends a request across the internet using HTTP to a server; a specialized computer designed to store websites. The most popular browsers are Internet Explorer, Chrome, Firefox.
+            </p>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">HTML</div>
+          <div class="concept-description">
+            <p>
+              HTML stands for <span class="italic">Hypertext markup language</span>. An HTML document would contain all the text, markup, references, and links to other pages that a browser would interpret to present a complete webpage to an end user.
+            </p>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">Markup</div>
+          <div class="concept-description">
+            <p>
+              HTML markup consists of tags &amp; elements. A <span class="bold">tag</span> is something that can change the behavior of it's contents, for example making it <span class="bold">bold</span> or <span class="italic">italic</span>. It is important to remember to close all your tags or risk creating problems,
+              there are however void tags that don't need to be closed: ex. the img or br tags. There are many different tags that do different things, you can for example <a href="http://www.udacity.com">link</a> to the Udacity homepage! And many other fun
+              things as well. A complete tag comprises an element.
+            </p>
+            <p>
+              A good thing to also remember is how <span class="italic">whitespace     </span> is treated. All tabs, new lines, or multiple spaces get translated into a single space &amp; that is why you need markup to <span class="bold">change</span> things up.
+            </p>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">Computers are Stupid</div>
+          <div class="concept-description">
+            <p>
+              Computers are very literal and logical (usually). They will take all your instructions exactly as they were written, no how they might have been intended. So it's important to follow the correct syntax when coding.
+            </p>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">You can't remember everything!</div>
+          <div class="concept-description">
+            <p>
+              So don't even try. Knowing how to find the right answer with a google search or documentation is always a wiser approach anyway.
+            </p>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">Inline vs Block Elements</div>
+          <div class="concept-description">
+            <p>
+              HTML treats certain elements as inline and other as block. What that means is that inline elements will appear on the <span class="italic">same</span> line, while
+            </p>
+              <div>block elements get their own special "box" or block.</div>
+          </div>
+      </div>
+  </div>
+  <div class="section">
+    <h2>Lesson 2 Notes</h2>
+      <div class="concept">
+        <div class="concept-title">Structure of HTML documents</div>
+          <div class="concept-description">
+            <p>
+              A web browser interprets HTML's tree-like structure (DOM-document object model) and presents it in a series of nested boxes, aligned to a grid, and according to the rules that HTML's DOM has established.
+            </p>
+          </div>
+        </div>
+      <div class="concept">
+        <div class="concept-title">Chrome Dev Tools</div>
+          <div class="concept-description">
+            <p>
+              Chrome's Dev Tools will show you how a page is structured and allow you to manipulate and instantly see the results on the page. They also demonstrate how the different indentation of the HTML document transforms the element into a hierarchy of nested
+              boxes.
+            </p>
+          </div>
+      </div>
+  </div>
+  <div class="section">
+    <h2>Lesson 3 Notes</h2>
+      <div class="concept">
+        <div class="concept-title">Adding Style with CSS</div>
+          <div class="concept-description">
+            <ul>
+              <li><span class="bold">CSS</span>: cascading style sheets</li>
+              <li>Can have multiple CSS files referenced in an HTML document</li>
+              <li>CSS creates the look &amp; feel of a page</li>
+              <li>Cascading means you keep going down until you find the rule that is most specific to the element</li>
+              <li>Can also think of CSS as search &amp; replace
+                <ul>
+                  <li>find the class or tag of an element &amp; then apply that rule to it</li>
+                </ul>
+              </li>
+              <li>Cascading is an adaptation of the programming principle of inheritance</li>
+            </ul>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">Reducing complexity with CSS</div>
+          <div class="concept-description">
+            <p>
+              By utilizing CSS you can reduce the complexity &amp; repetition of having to edit individual sections of HTML in order to change how it looks in the browser. Instead you just apply the desired style with CSS &amp; as a result it can be easily changed whenever necessary  without having to edit the HTML extensively or at all.
+            </p>
+          </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">Validating your code</div>
+          <div class="concept-description">
+            <p>
+              Once you have your code complete it is important to validate it using the W3C validation tools for <a href="https://validator.w3.org/#validate_by_input">HTML</a> &amp; <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS</a> so that you can find mistakes that might make the pages appear differently on different browsers and find out if you are conforming to the HTML5 standard or not in your code.
+            </p>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
